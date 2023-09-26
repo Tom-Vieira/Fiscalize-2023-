@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/img/F.png" type="image/x-icon">
+    <title>Fiscalize</title>
+</head>
+
+    
+
+    <section>
+        <div>
+            <h1>Fiscalize</h1>
+        </div>
+        <div id="lados"><h2>Lado Esquerdo:</h2> <h2>Lado Direito:</h2></div>
+
+        <div >
+            <span> A : </span><input type="number" id="a">
+            <span> A : </span><input type="number" id="a2">
+        </div>
+
+        <div>
+            <span>C : </span> <input type="number" id="c">
+            <span> C : </span><input type="number" id="c2"> 
+        </div>
+        <div id="pç">
+            <span>Pç/m² : </span><input type="number" id="d">
+        </div>
+
+        <div>
+            <input type="button" value="Buscar Dados" id="button"  onclick="calcular()">
+        </div>
+        
+
+        <div id="res"></div>
+
+        <div><input type="button" value="Limpar Pesquisa" id="clear" onclick="limpar()" ></div>
+
+    </section>
+
+    <footer>
+       <p> &copy; Cleilton Vieira. 2023</p>
+    </footer>
+
+
+    <script src="assets/script.js"></script>
+
+</body>
+
+</html>
